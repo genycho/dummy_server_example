@@ -1,0 +1,70 @@
+{
+    "app_name": "Lunit DICOM Gateway",
+    "cxr": {
+        "lesion_names": [
+            "atelectasis",
+            "calcification",
+            "cardiomegaly",
+            "consolidation",
+            "fibrosis",
+            "mediastinal_widening",
+            "nodule",
+            "pneumothorax",
+            "pleural_effusion",
+            "pneumoperitoneum"
+        ],
+        "sc_types": [
+            "map"
+        ]
+    },
+    "mmg": null,
+    "rule_creation_map": {
+        "create_gsps": true,
+        "create_sc": true,
+        "create_sr": false,
+        "cxr_single_color": "00C9EA",
+        "cxr_single_color_map_opacity": 0.2,
+        "cxr_threshold": 0.15,
+        "cxr_v3_grayscale_sc_params": 1,
+        "invert_softcopy_lut": false,
+        "mmg_single_color": "FF59A0",
+        "mmg_single_color_map_opacity": 0.3,
+        "mmg_single_image_finding_tid_type": "4011",
+        "sc_heatmap_type": "heatmap",
+        "use_private_tags_in_gsps": false,
+        "use_private_tags_in_sc": false,
+        "use_private_tags_in_sr": false
+    },
+    "rule_setting": {
+        "allow_sc_image": true,
+        "bypass_dcm_ae_title": null,
+        "bypass_dcm_ip_address": "0.0.0.0",
+        "bypass_dcm_port": 8080,
+        "bypass_dcm_run_params": null,
+        "create_new_series": false,
+        "filtering_frontal_xray": false,
+        "gsps_instance_number": null,
+        "gsps_series_number": null,
+        "ignore_duplicate_sop": false,
+        "instance_number": null,
+        "limit_patient_age": 15,
+        "mmg_4_view_grouping_tag": "",
+        "new_series_number": null,
+        "received_ae_title": null,
+        "received_modality": null,
+        "rule_name": "Rule Name",
+        "rule_type": "global",
+        "series_description": null,
+        "specify_lcc_tag": null,
+        "specify_lmlo_tag": null,
+        "specify_rcc_tag": null,
+        "specify_rmlo_tag": null,
+        "store_destinations": [
+            1
+        ],
+        "study_description": null,
+        "use_bypass_dcm": false,
+        "use_mmg_1_view": false
+    },
+    "version": "2.5.0"
+}

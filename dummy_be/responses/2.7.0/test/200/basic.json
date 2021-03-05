@@ -1,0 +1,9 @@
+{
+	"app": "cxr-nodule",
+	"uuid": "ceba6755-26f6-4c63-8616-1fccffec5d86",
+	"file": "http://192.168.20.44/data/dicom/ceba6755-26f6-4c63-8616-1fccffec5d86.dcm",
+	"valid": "true",
+	"width": 1760,
+	"height": 2140,
+	"created_at": "2019-06-12T05:29:42.430332Z"
+}
